@@ -1,7 +1,7 @@
 # Stock-market-prediction-machine-learning-model
 
 
-                             ![image](https://github.com/Urmila2003/Stock-market-prediction-machine-learning-model/assets/109129599/4159f773-a137-4e82-a519-3f9c32fd8d31)
+![image](https://github.com/Urmila2003/Stock-market-prediction-machine-learning-model/assets/109129599/4159f773-a137-4e82-a519-3f9c32fd8d31)
 
 # Why do we need Stock Price Prediction?
 The stock market is known for being volatile and hard to predict. Many researchers have attempted to use time-series data to forecast future stock prices, which could be highly profitable if successful. However, there are numerous variables that influence market fluctuations, and only a few can be accurately quantified, such as historical stock data, trading volume, and current prices. Other fundamental factors, like a company's intrinsic value, assets, performance, and strategies, can also impact investor confidence and stock prices, but they are difficult to incorporate into mathematical models. As a result, using machine learning for stock price prediction is challenging and can be unreliable. Additionally, unforeseen events, such as a pandemic or a war, can quickly impact the stock market, making accurate predictions even more difficult.
@@ -20,9 +20,7 @@ Plotting the High and Low points of the market, we see the below graph.
 
 # Data Preprocessing
 When working with real-world data in machine learning models, it's important to normalize or rescale the data to a fixed range. By doing so, we can prevent features with larger numeric values from dominating the model and introducing biases, which can help the model converge more quickly.
-                                      ![image](https://github.com/Urmila2003/Stock-market-prediction-machine-learning-model/assets/109129599/d751cdd4-b6f0-4973-8966-156f954aced1)
-
-
+                                
 # Train and Test Sets for Stock Price Prediction
 After defining our custom function for splitting the data, we proceed to split it into training and testing sets. Since shuffling is not allowed in time-series datasets, we perform a simple split. To predict the current value, we take two steps worth of past data, meaning that the model considers yesterday's and today's values to predict today's closing price.
 
