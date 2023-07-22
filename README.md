@@ -1,6 +1,6 @@
 # Stock-market-prediction-machine-learning-model
 
-Why do we need Stock Price Prediction?
+# Why do we need Stock Price Prediction?
 The stock market is known for being volatile and hard to predict. Many researchers have attempted to use time-series data to forecast future stock prices, which could be highly profitable if successful. However, there are numerous variables that influence market fluctuations, and only a few can be accurately quantified, such as historical stock data, trading volume, and current prices. Other fundamental factors, like a company's intrinsic value, assets, performance, and strategies, can also impact investor confidence and stock prices, but they are difficult to incorporate into mathematical models. As a result, using machine learning for stock price prediction is challenging and can be unreliable. Additionally, unforeseen events, such as a pandemic or a war, can quickly impact the stock market, making accurate predictions even more difficult.
 Rather than trying to accurately predict exact values, analysts typically focus on making short-term predictions that provide a probability estimate of the market's future performance. By using historical data and relevant features, mathematical and machine learning models can forecast short-term fluctuations in the market on an average day. However, predicting the impact of unexpected events, such as market-shattering news, is extremely challenging.
 
