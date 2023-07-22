@@ -1,6 +1,5 @@
 # Stock-market-prediction-machine-learning-model
 
-
 ![image](https://github.com/Urmila2003/Stock-market-prediction-machine-learning-model/assets/109129599/4159f773-a137-4e82-a519-3f9c32fd8d31)
 
 # Why do we need Stock Price Prediction?
