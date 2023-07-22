@@ -45,3 +45,13 @@ Instead of creating our own implementation of EMA, we can use the SimpleExpSmoot
 Test RMSE: 37.475
 Test MAPE: 0.092
 Comparing the performance of SMA and EMA with LSTM in predicting stock price data, we find that the latter significantly outperforms the former. Hyperparameter tuning, including adjusting the number of cells, batch size, and loss function, could further improve the LSTM model's performance.
+
+# Result
+This model leads to a successful prediction of a stock's future price to yield significant profit. The efficient-market hypothesis suggests that stock prices reflect all currently available information and any price changes that are not based on newly revealed information thus are inherently unpredictable.
+
+# Conclusion and Future Scope
+Predicting stock market returns is a challenging task due to consistently changing stock values which are dependent
+on multiple parameters which form complex patterns. The historical dataset available on company’s website consists
+of only few features like high, low, open, close, adjacent close value of stock prices, volume of shares traded etc.,
+which are not sufficient enough. To obtain higher accuracy in the predicted price value new variables have been
+created using the existing variables. 
