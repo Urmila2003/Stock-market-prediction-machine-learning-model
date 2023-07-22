@@ -25,6 +25,8 @@ When working with real-world data in machine learning models, it's important to 
 After defining our custom function for splitting the data, we proceed to split it into training and testing sets. Since shuffling is not allowed in time-series datasets, we perform a simple split. To predict the current value, we take two steps worth of past data, meaning that the model considers yesterday's and today's values to predict today's closing price.
 
 # Building the LSTM model
+![image](https://github.com/Urmila2003/Stock-market-prediction-machine-learning-model/assets/109129599/ec9c60ee-1f0d-497b-8ef7-390882fb938b)
+
 To construct a basic LSTM model with a single unit, we will utilize the Sequential and LSTM modules offered by Tensorflow Keras.
 
 # Performance Evaluation on Test Set
